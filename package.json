@@ -1,0 +1,23 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:nav": "vuepress nav docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/bundler-webpack": "^2.0.0-alpha.1",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-auto-sidebar": "^2.3.2"
+  },
+  "dependencies": {
+    "@vuepress/cli": "^2.0.0-alpha.8",
+    "vuepress-plugin-export": "^0.2.0",
+    "vuepress-sidebar-atuo": "^1.0.4"
+  }
+}
